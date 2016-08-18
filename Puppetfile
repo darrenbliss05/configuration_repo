@@ -1,6 +1,6 @@
 
-mod 'mongodb'
-mod 'jenkins'
-mod 'logrotate'
-mod 'apt'
-mod 'stdlib'
+mod 'puppetlabs/mongodb'
+mod 'puppetlabs/jenkins'
+mod 'puppetlabs/logrotate'
+mod 'puppetlabs/apt'
+mod 'puppetlabs/stdlib'
