@@ -1,4 +1,4 @@
 node default {
-   $key_test = hiera('mycode')
-   include helloworld
+    hiera_include('classes')
 }
+ 
