@@ -1,0 +1,4 @@
+mycode: "%{fqdn}" 
+classes: 
+    - roles::gitlab
+
