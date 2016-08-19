@@ -1,8 +1,1 @@
-cushash: 
-  mycode: 'jjoobar' 
-
-#helloworld::mycode: 'help'
-mycode: 'help1'
-
-classes:
-  - helloworld
+# defaults
