@@ -25,7 +25,8 @@ mysql::db { hiera('mysql::dbname','mydb'):
   grant    => ['SELECT', 'UPDATE'],
 }
 
-include '::mysql::server::mysqltuner'
+## commented out as this is not working yet.
+#include '::mysql::server::mysqltuner'
 
    
 }
