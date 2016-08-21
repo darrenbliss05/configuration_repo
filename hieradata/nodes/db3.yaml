@@ -1,0 +1,11 @@
+mycode: "%{fqdn}"
+#mysql::replicate-do-db:
+#   - server
+mysql::dbname: inventory
+mysql::dbadmin: myadmin
+mysql::dbadminpassword: herisa
+mysql::root_password: herisa
+
+classes: 
+    - role::cpw::database
+

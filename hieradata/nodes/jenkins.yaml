@@ -1,5 +1,5 @@
 mycode: "%{fqdn}"
 jenkins::version :  '1.5.5.0'
 classes: 
-    - roles::jenkins
+    - role::jenkins
 

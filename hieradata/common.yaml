@@ -1,1 +1,6 @@
-# defaults
+# defaults to just use the base profile. This is a catchall to ensure that 
+# at least the basic modules get installed. The other option might be to 
+# create something like a role::unassign.
+ classes:
+    - profile::base
+

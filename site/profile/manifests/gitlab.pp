@@ -1,4 +1,4 @@
-class profiles::gitlab {
+class profile::gitlab {
 
   $external_url = hiera('gitlab::external_url','http://gitlab.mydomain.tld')
   class {'gitlab':

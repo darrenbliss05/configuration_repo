@@ -1,4 +1,4 @@
-class profiles::jenkins {
+class profile::jenkins {
 
   $version = hiera('jenkins::version','latest')
   class {'jenkins':

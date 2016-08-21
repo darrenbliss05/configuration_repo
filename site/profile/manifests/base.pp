@@ -1,4 +1,4 @@
-class profiles::base {
+class profile::base {
 #the base profile should include component modules that will be on all nodes
 accounts::user { 'monitoring':
  ensure => present,

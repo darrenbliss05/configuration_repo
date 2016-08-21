@@ -1,4 +1,4 @@
 mycode: %{fqdb}
 classes: 
-    - roles::compute
+    - role::compute
 
